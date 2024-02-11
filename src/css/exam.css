@@ -1,0 +1,59 @@
+.exams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/exams.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   min-height: 100vh;
+   
+  }
+  
+  .exams .examh2 {
+    display: block;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #333 !important;
+  }
+  .exams .examh3 {
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .exams .form{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 4px;
+  }
+  #start{
+    margin: 8px;
+    padding: 8px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+  }
+  #start:hover{
+    background-color: #0069d9;
+
+  }
+  #start:disabled{
+    background-color: lightblue;
+  }

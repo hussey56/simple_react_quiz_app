@@ -1,0 +1,50 @@
+.contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+   width: 100%;
+   background-image: url('../images/profile_bg.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   
+  }
+  .center{
+    width: 400px;
+    height: 100%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.5) !important;
+    text-align: center;
+  }
+  
+  .center .ph2 {
+  
+    display: block;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: gold;
+    text-transform: uppercase !important;
+  }
+  .contain .ph2 span{
+color: whitesmoke;
+text-transform: capitalize !important;
+  }
+  .contain .logoutbtn{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  .contain .logoutbtn:hover{
+    background-color: #3e8e41;
+  }
+  #email{
+    text-transform: lowercase !important;
+  }
